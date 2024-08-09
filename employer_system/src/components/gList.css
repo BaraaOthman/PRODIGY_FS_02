@@ -1,0 +1,43 @@
+.grocery-list {
+    padding: 20px;
+}
+
+.grocery-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.grocery-table th, .grocery-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.grocery-table th {
+    background-color: #f2f2f2;
+}
+
+.grocery-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.grocery-form input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.grocery-form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.grocery-form button:hover {
+    background-color: #45a049;
+}
